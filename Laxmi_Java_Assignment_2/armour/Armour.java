@@ -3,7 +3,7 @@ package armour;
 public abstract class Armour {
   private int armourAmount;
   private int dexterityCost;
-  private String armourType;
+  private String armourType = "";
 
   public Armour() {
     // do nothing
