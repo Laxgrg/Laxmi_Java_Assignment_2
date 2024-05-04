@@ -5,7 +5,7 @@ import java.util.Random;
 public abstract class Weapon {
   private int damageAmount;
   private int dexterityCost;
-  private String weaponType;
+  private String weaponType = "";
   protected Random randNum = new Random();
 
   public Weapon() {
